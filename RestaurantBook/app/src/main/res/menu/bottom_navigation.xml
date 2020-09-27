@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cnb_unselectedColor="#666666">
+        <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="홈"
+        app:cnb_iconColor="@color/navigation_color_add"/>
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/ic_category"
+            android:title="카테고리"
+            app:cnb_iconColor="@color/navigation_color_mood"/>
+        <item
+            android:id="@+id/around"
+            android:icon="@drawable/ic_location"
+            android:title="근처"
+            app:cnb_iconColor="@color/navigation_color_habit"/>
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="찜한 가게"
+            app:cnb_iconColor="@color/navigation_color_chart"/>
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_account"
+            android:title="내 정보"
+            app:cnb_iconColor="@color/navigation_color_profile"/>
+    </menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InquiryActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="77dp"
+        android:layout_toStartOf="@+id/title"
+        android:background="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="문의하기"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1B1919"
+        android:textSize="30dp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:layout_below="@+id/title"/>
+
+    <Button
+        android:id="@+id/inquiry_kakao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="카카오톡으로 문의하기"
+        android:layout_below="@+id/line"/>
+
+    <Button
+        android:id="@+id/inquiry_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="이메일로 문의하기"
+        android:layout_below="@+id/inquiry_kakao"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="개발자 : 데이터테크학과 17학번 강승구"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="450dp"/>
+    
+</RelativeLayout>

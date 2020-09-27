@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="회원가입"
+        android:textStyle="bold"
+        android:textColor="#1B1919"
+        android:textSize="30dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/title"
+        android:background="#000000"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_back"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="28dp"
+        android:hint="아이디(이메일 주소)"
+        android:privateImeOptions="defalutInputmode=english" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="92dp"
+        android:layout_marginRight="28dp"
+        android:background="#000000"
+        android:text="중복확인"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/input_email"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="비밀번호"
+            android:inputType="textPassword"
+            android:privateImeOptions="defalutInputmode=english"/>
+
+        <EditText
+            android:id="@+id/check_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="비밀번호 확인"
+            android:inputType="textPassword"
+            android:privateImeOptions="defalutInputmode=english"/>
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="이름"
+            android:privateImeOptions="defaultInputmode=korean"/>
+
+        <EditText
+            android:id="@+id/input_birth"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="생년월일(8자리 입력)"
+            android:inputType="number"
+            android:digits="0123456789"/>
+
+        <EditText
+            android:id="@+id/input_tel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="휴대폰 번호"/>
+
+        <EditText
+            android:id="@+id/certification_number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="인증번호"/>
+
+        <Button
+            android:id="@+id/apply"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="확인"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"/>
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="#000000"
+            android:text="인증번호\n요청"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

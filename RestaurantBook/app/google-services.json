@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "935940652134",
+    "firebase_url": "https://restaurant-book-ea75b.firebaseio.com",
+    "project_id": "restaurant-book-ea75b",
+    "storage_bucket": "restaurant-book-ea75b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935940652134:android:57f46959fd30ec540481a7",
+        "android_client_info": {
+          "package_name": "com.example.restaurantbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935940652134-nitkrng58s7g4mig1hk875k5gok6254b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.restaurantbook",
+            "certificate_hash": "c18c8b93897b93d7a8b8dd1d643a63ccd213cc13"
+          }
+        },
+        {
+          "client_id": "935940652134-fdivfa4jvvvefuavn1g01skhfmiv75eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2mAkgMO4bCUsm5O7v8t-ydoNkAn9qpII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935940652134-fdivfa4jvvvefuavn1g01skhfmiv75eb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

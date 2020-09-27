@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RestaurantBook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="KAKAO_APP_KEY">3c53fe5ca66606f72ff8eb822d33ef9a</string>
+    <string name="facebook_app_id">681666269099089</string>
+    <string name="fb_login_protocol_scheme">fb681666269099089</string>
+
+    //restaurant list
+    <string name="title1">병천순대</string>
+    <string name="title2">엄마손</string>
+    <string name="title3">창년좆밥</string>
+
+</resources>
